@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\st310-07\\Documents\\Shengals\\Cherepashki_ninja\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69944C52-CAD3-4169-B3C4-A5C4BE841E2E}|Cherepashki_ninja.vcxproj|C:\\Users\\st310-07\\Documents\\Shengals\\Cherepashki_ninja\\Cherepashki_ninja.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{69944C52-CAD3-4169-B3C4-A5C4BE841E2E}|Cherepashki_ninja.vcxproj|solutionrelative:Cherepashki_ninja.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cherepashki_ninja.cpp",
+              "DocumentMoniker": "C:\\Users\\st310-07\\Documents\\Shengals\\Cherepashki_ninja\\Cherepashki_ninja.cpp",
+              "RelativeDocumentMoniker": "Cherepashki_ninja.cpp",
+              "ToolTip": "C:\\Users\\st310-07\\Documents\\Shengals\\Cherepashki_ninja\\Cherepashki_ninja.cpp",
+              "RelativeToolTip": "Cherepashki_ninja.cpp",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAuwIQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-01T04:36:04.723Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

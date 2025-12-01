@@ -1,0 +1,3 @@
+﻿  Cherepashki_ninja.cpp
+C:\Users\st310-07\Documents\Shengals\Cherepashki_ninja\Cherepashki_ninja.cpp(129,29): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
+  Cherepashki_ninja.vcxproj -> C:\Users\st310-07\Documents\Shengals\Cherepashki_ninja\x64\Debug\Cherepashki_ninja.exe
