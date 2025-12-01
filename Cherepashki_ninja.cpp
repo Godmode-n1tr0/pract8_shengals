@@ -1,7 +1,6 @@
 ﻿#include <iostream>
 #include <vector>
 #include <chrono>
-#include <atomic>
 #include <sstream>
 #include <random>
 #include <windows.h> 
@@ -10,7 +9,7 @@ const int DISTANCE = 50;
 const int TURTLES_COUNT = 10;
 
 CRITICAL_SECTION race_cs;
-std::atomic<bool> winner_found = false;
+bool winner_found = false;
 
 std::vector<int> turtle_positions(TURTLES_COUNT, 0);
 std::vector<bool> turtle_is_finished(TURTLES_COUNT, false);
@@ -103,7 +102,7 @@ int main() {
     InitializeCriticalSection(&race_cs);
 
     setlocale(LC_ALL, "");
-    std::cout << "=== НАЧАЛО ГОНКИ ===\n\n";
+    std::cout << "=== НАЧАЛО ГОНКИ (ЧИСТЫЙ WinAPI) ===\n\n";
 
     std::vector<HANDLE> threads_handles;
     std::vector<int*> thread_data;
@@ -115,7 +114,14 @@ int main() {
         data[1] = i + 1;
         thread_data.push_back(data);
 
-        HANDLE hThread = CreateThread(NULL, 0, run_turtle, data, 0, NULL);
+        HANDLE hThread = CreateThread(
+            NULL,
+            0,
+            run_turtle,
+            data,
+            0,
+            NULL
+        );
 
         if (hThread != NULL) {
             threads_handles.push_back(hThread);
